@@ -155,7 +155,27 @@ ShoppingWebsite/
 
 1. Make sure MongoDB is running on your system
 2. The application will automatically create the `shopping_website` database
-3. To populate with sample data, you can use the API endpoints or create a seed script
+3. To populate with sample data, run the seed script:
+   ```bash
+   cd backend
+   npm run seed
+   ```
+
+### Quick Start (Development)
+
+For quick development setup, use the provided startup script:
+
+```bash
+# Make sure you're in the project root directory
+chmod +x start-dev.sh
+./start-dev.sh
+```
+
+This script will:
+- Install all dependencies for both backend and frontend
+- Start both servers concurrently
+- Backend on http://localhost:5000
+- Frontend on http://localhost:3000
 
 ## Development
 
