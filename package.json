@@ -1,0 +1,16 @@
+{
+  "name": "shopping-website",
+  "version": "1.0.0",
+  "description": "A modern shopping website with Express backend and React frontend",
+  "scripts": {
+    "dev": "./start-dev.sh",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": ["shopping", "ecommerce", "express", "react", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
